@@ -1,0 +1,17 @@
+name: pastebin.cr
+version: 0.1.0
+
+authors:
+  - Roman Hargrave <roman@hargrave.info>
+
+targets:
+  crystal_paste:
+    main: src/pastebin.cr
+
+dependencies:
+   route:
+      github: tbrand/route.cr
+
+crystal: 0.21.1
+
+license: GPL
