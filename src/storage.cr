@@ -37,7 +37,7 @@ module Pastebin
       def initialize(storageFolder : String, handleLength : UInt64)
          if !Dir.exists?(storageFolder) && !File.exists?(storageFolder)
             Dir.mkdir_p(storageFolder)
-         elsif File.exists?(storageFolder)
+         elsif !File.directory?(storageFolder)
             raise "The specified storage path (#{storageFolder}) exists, but is not a directory"
          end
 
