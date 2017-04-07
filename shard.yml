@@ -10,7 +10,8 @@ targets:
 
 dependencies:
    route:
-      github: tbrand/route.cr
+      github: romanhargrave/route.cr
+      branch: merge_romans-features
 
 crystal: 0.21.1
 
