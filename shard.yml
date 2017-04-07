@@ -5,7 +5,7 @@ authors:
   - Roman Hargrave <roman@hargrave.info>
 
 targets:
-  crystal_paste:
+  paste.cr:
     main: src/pastebin.cr
 
 dependencies:
